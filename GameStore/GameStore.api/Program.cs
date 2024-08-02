@@ -60,21 +60,21 @@ app.MapPost("games", (CreateGameDto newGame)    =>
 });
 
 //PUT /games
-app.MapPut("games/{id}", (int id, UpdateGameDto UpdatedGame) =>
+app.MapPut("games/{id}", (int id, UpdateGameDto updatedGame) =>
 {
     var index = games.FindIndex(game => game.Id == id);
 
     if (index == -1)
     {
-        Results.NotFound();
+        return Results.NotFound();
     }
 
     games[index] = new GameDto(
         id,
-        UpdatedGame.Name,
-        UpdatedGame.Genre,
-        UpdatedGame.Price,
-        UpdatedGame.ReleaseDate
+        updatedGame.Name,
+        updatedGame.Genre,
+        updatedGame.Price,
+        updatedGame.ReleaseDate
     );
 
     return Results.NoContent();
