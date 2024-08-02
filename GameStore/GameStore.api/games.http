@@ -1,14 +1,14 @@
 GET http://localhost:5108/games 
 
 ###
-GET http://localhost:5108/games/4
+GET http://localhost:5108/games/1
 
 ###
 POST http://localhost:5108/games
 Content-Type: application/json
 
 {
-    "Name" : "MineCraft",
+    //"Name" : "MineCraft",
     "Genre" : "Kids and Family",
     "Price" : 19.99,
     "ReleaseDate" : "2011-11-18"

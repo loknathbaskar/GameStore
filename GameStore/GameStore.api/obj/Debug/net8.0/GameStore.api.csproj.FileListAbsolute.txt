@@ -24,3 +24,9 @@
 /Users/loknathbaskar/Projects/GitRepo/GameStore/GameStore.api/obj/Debug/net8.0/GameStore.api.genruntimeconfig.cache
 /Users/loknathbaskar/Projects/GitRepo/GameStore/GameStore.api/obj/Debug/net8.0/ref/GameStore.api.dll
 /Users/loknathbaskar/Projects/GitRepo/GameStore/GameStore.api/obj/Debug/net8.0/GameStore.api.sourcelink.json
+/Users/loknathbaskar/Projects/GitRepo/GameStore/GameStore.api/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/Users/loknathbaskar/Projects/GitRepo/GameStore/GameStore.api/bin/Debug/net8.0/MinimalApis.Extensions.dll
+/Users/loknathbaskar/Projects/GitRepo/GameStore/GameStore.api/bin/Debug/net8.0/MiniValidation.dll
+/Users/loknathbaskar/Projects/GitRepo/GameStore/GameStore.api/obj/Debug/net8.0/GameStore.api.csproj.AssemblyReference.cache
+/Users/loknathbaskar/Projects/GitRepo/GameStore/GameStore.api/obj/Debug/net8.0/GameStore.api.MvcApplicationPartsAssemblyInfo.cs
+/Users/loknathbaskar/Projects/GitRepo/GameStore/GameStore.api/obj/Debug/net8.0/GameStor.41DC94ED.Up2Date
