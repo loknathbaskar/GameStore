@@ -1,0 +1,12 @@
+﻿using Microsoft.AspNetCore.SignalR.Protocol;
+
+namespace GameStore.api.Dtos;
+
+public record class GameDto
+(
+    int Id,
+    string Name,
+    string Genre,
+    decimal Price,
+    DateOnly ReleaseDate
+);
